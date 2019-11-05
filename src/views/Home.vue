@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-view-container">
     <h1>Adopt a New Friend</h1>
     <button
       class="btn btn-primary"
