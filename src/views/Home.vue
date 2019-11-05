@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>Adopt a New Friend</h1>
-
+    {{ getAllCats.length }}
     {{ animalsCount }}
 
     <button
@@ -63,7 +63,8 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'animalsCount'
+      'animalsCount',
+      'getAllCats'
     ])
   },
   methods: {
